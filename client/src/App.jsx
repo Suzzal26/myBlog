@@ -1,13 +1,13 @@
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
-
-const App=()=> {
-  
-
+const App = () => {
   return (
     <>
-     Hello World
+      <Login />
+      <Register />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
